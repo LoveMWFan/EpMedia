@@ -1,7 +1,0 @@
-Executable : F:\android-sdk\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-D:\AndroidStudioProjects\lovewmfan\EpMedia\joevideolib\.cxx\cmake\debug\armeabi-v7a
-ffmpeg-exec
-jvmArgs : 
-

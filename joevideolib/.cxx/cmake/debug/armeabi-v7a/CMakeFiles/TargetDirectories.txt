@@ -1,3 +1,0 @@
-D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/ffmpeg-exec.dir
-D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
