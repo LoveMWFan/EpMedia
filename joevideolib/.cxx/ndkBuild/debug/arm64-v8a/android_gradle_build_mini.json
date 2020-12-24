@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Android.mk",
+    "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "F:\\android-sdk\\ndk\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "F:\\android-sdk\\ndk\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ffmpeg-exec-debug-arm64-v8a": {
+      "artifactName": "ffmpeg-exec",
+      "buildCommand": "F:\\android-sdk\\ndk\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\build\\intermediates\\ndkBuild\\debug\\lib D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libffmpeg-exec.so",
+      "abi": "arm64-v8a",
+      "output": "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libffmpeg-exec.so",
+      "runtimeFiles": []
+    }
+  }
+}

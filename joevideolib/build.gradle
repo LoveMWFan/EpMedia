@@ -24,7 +24,7 @@ android {
     }
     sourceSets {
         main {
-            jniLibs.srcDirs = ['libs']
+            jniLibs.srcDirs = ['jniLibs']
 
         }
     }
@@ -32,6 +32,10 @@ android {
         ndkBuild {
             path file('src/main/jni/Android.mk')
         }
+//        cmake {
+//            path "src/main/jni/CMakeLists.txt"
+//            version "3.10.2"
+//        }
     }
 }
 

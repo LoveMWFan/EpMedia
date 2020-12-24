@@ -1,0 +1,18 @@
+# ninja log v5
+53	1625	630498347	CMakeFiles/ffmpeg-exec.dir/cmdutils.c.o	ddf1b6dfb7bc96bd
+1	1630	630498347	CMakeFiles/ffmpeg-exec.dir/ffmpeg_filter.c.o	b41bbed756e59df5
+9	1630	630498347	CMakeFiles/ffmpeg-exec.dir/Jni_FFmpegCmd.c.o	24fe0760d24415c7
+33	1633	630498347	CMakeFiles/ffmpeg-exec.dir/ffmpeg_thread.c.o	e1a56641a5e05186
+15	1634	630498347	CMakeFiles/ffmpeg-exec.dir/ffmpeg.c.o	a224cd22a2ec828d
+24	1638	630498347	CMakeFiles/ffmpeg-exec.dir/ffmpeg_opt.c.o	5466e600ad2894e5
+41	1656	630498347	CMakeFiles/ffmpeg-exec.dir/ffmpeg_hw.c.o	8e8cf2aafe32d254
+1657	3170	630498348	D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/build/intermediates/cmake/debug/obj/armeabi-v7a/libffmpeg-exec.so	b03584056be96f8f
+0	12	0	clean	1ce6692e4b3ffc9d
+354	1710	630498406	CMakeFiles/ffmpeg-exec.dir/Jni_FFmpegCmd.c.o	24fe0760d24415c7
+395	1710	630498406	CMakeFiles/ffmpeg-exec.dir/ffmpeg_thread.c.o	e1a56641a5e05186
+367	1711	630498406	CMakeFiles/ffmpeg-exec.dir/ffmpeg_hw.c.o	8e8cf2aafe32d254
+427	2212	630498407	CMakeFiles/ffmpeg-exec.dir/cmdutils.c.o	ddf1b6dfb7bc96bd
+345	2212	630498407	CMakeFiles/ffmpeg-exec.dir/ffmpeg_filter.c.o	b41bbed756e59df5
+360	2213	630498407	CMakeFiles/ffmpeg-exec.dir/ffmpeg.c.o	a224cd22a2ec828d
+380	2217	630498407	CMakeFiles/ffmpeg-exec.dir/ffmpeg_opt.c.o	5466e600ad2894e5
+2231	2441	630498408	D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/build/intermediates/cmake/debug/obj/armeabi-v7a/libffmpeg-exec.so	b03584056be96f8f

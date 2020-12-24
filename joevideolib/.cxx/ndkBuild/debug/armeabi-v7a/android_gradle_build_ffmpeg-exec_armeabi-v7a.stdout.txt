@@ -1,0 +1,14 @@
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= Jni_FFmpegCmd.c
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= cmdutils.c
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= ffmpeg_filter.c
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= ffmpeg_opt.c
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= ffmpeg_hw.c
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= ffmpeg.c
+[armeabi-v7a] Compile thumb  : ffmpeg-exec <= ffmpeg_thread.c
+[armeabi-v7a] Prebuilt       : libavcodec.so <= D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/../jniLibs/armeabi-v7a/
+[armeabi-v7a] Prebuilt       : libavfilter.so <= D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/../jniLibs/armeabi-v7a/
+[armeabi-v7a] Prebuilt       : libavformat.so <= D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/../jniLibs/armeabi-v7a/
+[armeabi-v7a] Prebuilt       : libavutil.so <= D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/../jniLibs/armeabi-v7a/
+[armeabi-v7a] Prebuilt       : libswresample.so <= D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/../jniLibs/armeabi-v7a/
+[armeabi-v7a] Prebuilt       : libswscale.so <= D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/../jniLibs/armeabi-v7a/
+[armeabi-v7a] SharedLibrary  : libffmpeg-exec.so

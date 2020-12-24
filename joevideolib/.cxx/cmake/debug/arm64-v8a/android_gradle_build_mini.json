@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "F:\\android-sdk\\ndk\\android-ndk-r16b\\build\\cmake\\android.toolchain.cmake",
+    "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "F:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ffmpeg-exec-Debug-arm64-v8a": {
+      "artifactName": "ffmpeg-exec",
+      "buildCommand": "F:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\.cxx\\cmake\\debug\\arm64-v8a\" ffmpeg-exec",
+      "abi": "arm64-v8a",
+      "output": "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libffmpeg-exec.so",
+      "runtimeFiles": [
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libavutil.so",
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libswresample.so",
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libavcodec.so",
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libavfilter.so",
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libswscale.so",
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libavformat.so",
+        "D:\\AndroidStudioProjects\\lovewmfan\\EpMedia\\joevideolib\\src\\main\\jni\\..\\jniLibs\\arm64-v8a\\libavdevice.so"
+      ]
+    }
+  }
+}

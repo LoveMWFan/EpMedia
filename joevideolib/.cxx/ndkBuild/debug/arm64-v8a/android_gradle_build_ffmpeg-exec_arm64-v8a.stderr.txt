@@ -1,0 +1,662 @@
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/Jni_FFmpegCmd.c:50:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+    (*jvm)->AttachCurrentThread(jvm, (void **) &env, NULL);
+                                     ^~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/Jni_FFmpegCmd.c:59:38: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+    (*jvm)->AttachCurrentThread(jvm, (void **) &env, NULL);
+                                     ^~~~~~~~~~~~~~
+2 warnings generated.
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:142:5: warning: implicit declaration of function 'ffmpeg_thread_exit' is invalid in C99 [-Wimplicit-function-declaration]
+    ffmpeg_thread_exit(ret);
+    ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:144:1: warning: function declared 'noreturn' should not return [-Winvalid-noreturn]
+}
+^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:216:18: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    while (child = av_opt_child_class_next(class, child))
+           ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:216:18: note: place parentheses around the assignment to silence this warning
+    while (child = av_opt_child_class_next(class, child))
+                 ^
+           (                                            )
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:216:18: note: use '==' to turn this assignment into an equality comparison
+    while (child = av_opt_child_class_next(class, child))
+                 ^
+                 ==
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:479:12: warning: assigning to 'const unsigned char *' from 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    for (p = a; *p; p++)
+           ^ ~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:488:12: warning: assigning to 'const unsigned char *' from 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    for (p = a; *p; p++) {
+           ^ ~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1136:5: warning: 'avresample_version' is deprecated [-Wdeprecated-declarations]
+    PRINT_LIB_INFO(avresample, AVRESAMPLE, flags, level);
+    ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1104:36: note: expanded from macro 'PRINT_LIB_INFO'
+            unsigned int version = libname##_version();                 \
+                                   ^
+<scratch space>:258:1: note: expanded from here
+avresample_version
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavresample/avresample.h:147:1: note: 'avresample_version' has been explicitly marked deprecated here
+attribute_deprecated
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1136:5: warning: 'avresample_configuration' is deprecated [-Wdeprecated-declarations]
+    PRINT_LIB_INFO(avresample, AVRESAMPLE, flags, level);
+    ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1115:31: note: expanded from macro 'PRINT_LIB_INFO'
+            const char *cfg = libname##_configuration();                \
+                              ^
+<scratch space>:258:1: note: expanded from here
+avresample_configuration
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavresample/avresample.h:157:1: note: 'avresample_configuration' has been explicitly marked deprecated here
+attribute_deprecated
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1501:20: warning: 'av_codec_next' is deprecated [-Wdeprecated-declarations]
+    while ((prev = av_codec_next(prev))) {
+                   ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavcodec/avcodec.h:4117:1: note: 'av_codec_next' has been explicitly marked deprecated here
+attribute_deprecated
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1738:22: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    for (i = 0; name = av_get_known_color_name(i, &rgb); i++)
+                ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1738:22: note: place parentheses around the assignment to silence this warning
+    for (i = 0; name = av_get_known_color_name(i, &rgb); i++)
+                     ^
+                (                                      )
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:1738:22: note: use '==' to turn this assignment into an equality comparison
+    for (i = 0; name = av_get_known_color_name(i, &rgb); i++)
+                     ^
+                     ==
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:2095:13: warning: 4 enumeration values not handled in switch: 'AVMEDIA_TYPE_UNKNOWN', 'AVMEDIA_TYPE_DATA', 'AVMEDIA_TYPE_ATTACHMENT'... [-Wswitch]
+    switch (st->codecpar->codec_type) {
+            ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:2110:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    while (t = av_dict_get(opts, "", t, AV_DICT_IGNORE_SUFFIX)) {
+           ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:2110:14: note: place parentheses around the assignment to silence this warning
+    while (t = av_dict_get(opts, "", t, AV_DICT_IGNORE_SUFFIX)) {
+             ^
+           (                                                  )
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/cmdutils.c:2110:14: note: use '==' to turn this assignment into an equality comparison
+    while (t = av_dict_get(opts, "", t, AV_DICT_IGNORE_SUFFIX)) {
+             ^
+             ==
+11 warnings generated.
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:152:16: warning: returning 'uint8_t *' (aka 'unsigned char *') from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        return ret;
+               ^~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:188:1: warning: returning 'uint8_t *' (aka 'unsigned char *') from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+DEF_CHOOSE_FORMAT(sample_fmts, enum AVSampleFormat, format, formats,
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:180:16: note: expanded from macro 'DEF_CHOOSE_FORMAT'
+        return ret;                                                            \
+               ^~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:191:1: warning: returning 'uint8_t *' (aka 'unsigned char *') from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+DEF_CHOOSE_FORMAT(sample_rates, int, sample_rate, sample_rates, 0,
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:180:16: note: expanded from macro 'DEF_CHOOSE_FORMAT'
+        return ret;                                                            \
+               ^~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:194:1: warning: returning 'uint8_t *' (aka 'unsigned char *') from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+DEF_CHOOSE_FORMAT(channel_layouts, uint64_t, channel_layout, channel_layouts, 0,
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:180:16: note: expanded from macro 'DEF_CHOOSE_FORMAT'
+        return ret;                                                            \
+               ^~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:250:12: warning: returning 'uint8_t *' (aka 'unsigned char *') from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    return res;
+           ^~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:330:41: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    fg->inputs[fg->nb_inputs - 1]->name = describe_filter_link(fg, in, 1);
+                                        ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_filter.c:370:47: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        fg->outputs[fg->nb_outputs - 1]->name = describe_filter_link(fg, cur, 0);
+                                              ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7 warnings generated.
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:286:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    if (sync = strchr(map, ',')) {
+        ~~~~~^~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:286:14: note: place parentheses around the assignment to silence this warning
+    if (sync = strchr(map, ',')) {
+             ^
+        (                      )
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:286:14: note: use '==' to turn this assignment into an equality comparison
+    if (sync = strchr(map, ',')) {
+             ^
+             ==
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:325:26: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (allow_unused = strchr(map, '?'))
+            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:325:26: note: place parentheses around the assignment to silence this warning
+        if (allow_unused = strchr(map, '?'))
+                         ^
+            (                              )
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:325:26: note: use '==' to turn this assignment into an equality comparison
+        if (allow_unused = strchr(map, '?'))
+                         ^
+                         ==
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:451:22: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    if (allow_unused = strchr(mapchan, '?'))
+        ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:451:22: note: place parentheses around the assignment to silence this warning
+    if (allow_unused = strchr(mapchan, '?'))
+                     ^
+        (                                  )
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:451:22: note: use '==' to turn this assignment into an equality comparison
+    if (allow_unused = strchr(mapchan, '?'))
+                     ^
+                     ==
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:699:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(codec_names, str, codec_name, s, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:747:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(codec_tags, str, codec_tag, ic, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:761:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(discard, str, discard_str, ic, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:798:21: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+            if (st->codec->lowres) {
+                    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:799:44: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                ist->dec_ctx->lowres = st->codec->lowres;
+                                           ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:800:44: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                ist->dec_ctx->width  = st->codec->width;
+                                           ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:801:44: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                ist->dec_ctx->height = st->codec->height;
+                                           ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:802:50: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                ist->dec_ctx->coded_width  = st->codec->coded_width;
+                                                 ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:803:50: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                ist->dec_ctx->coded_height = st->codec->coded_height;
+                                                 ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:810:13: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+            MATCH_PER_STREAM_OPT(frame_rates, str, framerate, ic, st);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:821:13: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+            MATCH_PER_STREAM_OPT(hwaccels, str, hwaccel, ic, st);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:866:13: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+            MATCH_PER_STREAM_OPT(hwaccel_devices, str, hwaccel_device, ic, st);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:873:13: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+            MATCH_PER_STREAM_OPT(hwaccel_output_formats, str,
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:899:13: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+            MATCH_PER_STREAM_OPT(canvas_sizes, str, canvas_size, ic, st);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1066:25: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        o->frame_rates[o->nb_frame_rates - 1].u.str, 0);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/dict.h:130:65: note: passing argument to parameter 'value' here
+int av_dict_set(AVDictionary **pm, const char *key, const char *value, int flags);
+                                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1070:55: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        av_dict_set(&o->g->format_opts, "video_size", o->frame_sizes[o->nb_frame_sizes - 1].u.str, 0);
+                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/dict.h:130:65: note: passing argument to parameter 'value' here
+int av_dict_set(AVDictionary **pm, const char *key, const char *value, int flags);
+                                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1073:57: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        av_dict_set(&o->g->format_opts, "pixel_format", o->frame_pix_fmts[o->nb_frame_pix_fmts - 1].u.str, 0);
+                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/dict.h:130:65: note: passing argument to parameter 'value' here
+int av_dict_set(AVDictionary **pm, const char *key, const char *value, int flags);
+                                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1075:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_TYPE_OPT(codec_names, str,    video_codec_name, ic, "v");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:64:20: note: expanded from macro 'MATCH_PER_TYPE_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1076:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_TYPE_OPT(codec_names, str,    audio_codec_name, ic, "a");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:64:20: note: expanded from macro 'MATCH_PER_TYPE_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1077:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_TYPE_OPT(codec_names, str, subtitle_codec_name, ic, "s");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:64:20: note: expanded from macro 'MATCH_PER_TYPE_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1078:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_TYPE_OPT(codec_names, str,     data_codec_name, ic, "d");
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:64:20: note: expanded from macro 'MATCH_PER_TYPE_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1262:37: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                dump_attachment(st, o->dump_attachment[i].u.str);
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:965:55: note: passing argument to parameter 'filename' here
+static void dump_attachment(AVStream *st, const char *filename)
+                                                      ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1322:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(codec_names, str, codec_name, s, ost->st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1406:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(presets, str, preset, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1409:21: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                buf = get_line(s);
+                    ^ ~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1438:5: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(time_bases, str, time_base, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1449:5: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(enc_time_bases, str, time_base, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1473:5: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(bitstream_filters, str, bsfs, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1524:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(codec_tags, str, codec_tag, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1539:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(disposition, str, ost->disposition, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1630:16: warning: returning 'uint8_t *' (aka 'unsigned char *') from a function with result type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        return read_file(ost->filters_script);
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1663:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(frame_rates, str, frame_rate, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1671:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(frame_aspect_ratios, str, frame_aspect_ratio, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1682:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(filter_scripts, str, ost->filters_script, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1683:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(filters,        str, ost->filters,        oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1696:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(frame_sizes, str, frame_size, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1703:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(frame_pix_fmts, str, frame_pix_fmt, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1717:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(intra_matrices, str, intra_matrix, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1725:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(chroma_intra_matrices, str, chroma_intra_matrix, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1735:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(inter_matrices, str, inter_matrix, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1744:9: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(rc_overrides, str, p, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1790:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(passlogfiles, str, ost->logfile_prefix, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1807:28: warning: initializing 'char *' with an expression of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                    char  *logbuffer = read_file(logfilename);
+                           ^           ~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1829:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(forced_key_frames, str, ost->forced_keyframes, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1865:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(filter_scripts, str, ost->filters_script, oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1866:5: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_STREAM_OPT(filters,        str, ost->filters,        oc, st);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1875:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(sample_fmts, str, sample_fmt, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1884:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(apad, str, ost->apad, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:1978:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_STREAM_OPT(frame_sizes, str, frame_size, oc, st);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:52:20: note: expanded from macro 'MATCH_PER_STREAM_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2181:21: warning: 4 enumeration values not handled in switch: 'AVMEDIA_TYPE_UNKNOWN', 'AVMEDIA_TYPE_DATA', 'AVMEDIA_TYPE_ATTACHMENT'... [-Wswitch]
+            switch (ofilter->type) {
+                    ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2240:9: warning: assigning to 'char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        MATCH_PER_TYPE_OPT(codec_names, str, subtitle_codec_name, oc, "s");
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:64:20: note: expanded from macro 'MATCH_PER_TYPE_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2261:63: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                        input_descriptor && output_descriptor &&
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2261:63: note: place parentheses around the '&&' expression to silence this warning
+                        input_descriptor && output_descriptor &&
+                                                              ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2401:37: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+            if (av_opt_set(ost->st->codec, "flags", e->value, 0) < 0)
+                                    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2479:21: warning: 5 enumeration values not handled in switch: 'AVMEDIA_TYPE_UNKNOWN', 'AVMEDIA_TYPE_DATA', 'AVMEDIA_TYPE_SUBTITLE'... [-Wswitch]
+            switch (ost->enc_ctx->codec_type) {
+                    ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2573:36: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int in_file_index = strtol(o->metadata_map[i].u.str, &p, 0);
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~
+F:/android-sdk/ndk/android-ndk-r16b/build//../sysroot/usr/include\stdlib.h:91:25: note: passing argument to parameter '__s' here
+long strtol(const char* __s, char** __end_ptr, int __base);
+                        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2626:21: warning: initializing 'const char *' with an expression of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        const char *p = o->program[i].u.str;
+                    ^   ~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2655:11: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        p = o->program[i].u.str;
+          ^ ~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2697:22: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        val = strchr(o->metadata[i].u.str, '=');
+                     ^~~~~~~~~~~~~~~~~~~~
+F:/android-sdk/ndk/android-ndk-r16b/build//../sysroot/usr/include\string.h:66:26: note: passing argument to parameter '__s' here
+char* strchr(const char* __s, int __ch) __attribute_pure__ __overloadable __RENAME_CLANG(strchr);
+                         ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2710:33: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                    if (!strcmp(o->metadata[i].u.str, "rotate")) {
+                                ^~~~~~~~~~~~~~~~~~~~
+F:/android-sdk/ndk/android-ndk-r16b/build//../sysroot/usr/include\string.h:102:24: note: passing argument to parameter '__lhs' here
+int strcmp(const char* __lhs, const char* __rhs) __attribute_pure__;
+                       ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2718:64: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        av_dict_set(&oc->streams[j]->metadata, o->metadata[i].u.str, *val ? val : NULL, 0);
+                                                               ^~~~~~~~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/dict.h:130:48: note: passing argument to parameter 'key' here
+int av_dict_set(AVDictionary **pm, const char *key, const char *value, int flags);
+                                               ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2747:28: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            av_dict_set(m, o->metadata[i].u.str, *val ? val : NULL, 0);
+                           ^~~~~~~~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/dict.h:130:48: note: passing argument to parameter 'key' here
+int av_dict_set(AVDictionary **pm, const char *key, const char *value, int flags);
+                                               ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:2966:5: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MATCH_PER_TYPE_OPT(codec_names, str, codec_name, NULL, tmp_line);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:64:20: note: expanded from macro 'MATCH_PER_TYPE_OPT'
+            outvar = o->name[i].u.type;\
+                   ^ ~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:3159:51: warning: assigning to 'const char *' from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    filtergraphs[nb_filtergraphs - 1]->graph_desc = graph_desc;
+                                                  ^ ~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg_opt.c:3340:26: warning: passing 'uint8_t [128]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        av_strerror(ret, error, sizeof(error));
+                         ^~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/error.h:97:35: note: passing argument to parameter 'errbuf' here
+int av_strerror(int errnum, char *errbuf, size_t errbuf_size);
+                                  ^
+67 warnings generated.
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:115:9: warning: 'LOGD' macro redefined [-Wmacro-redefined]
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG  , "ffmpeg.c", __VA_ARGS__)
+        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/android_log.h:12:9: note: previous definition is here
+#define LOGD(format, ...)  __android_log_print(ANDROID_LOG_DEBUG,  MY_TAG, format, ##__VA_ARGS__)
+        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:116:9: warning: 'LOGE' macro redefined [-Wmacro-redefined]
+#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR  , "ffmpeg.c", __VA_ARGS__)
+        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/android_log.h:11:9: note: previous definition is here
+#define LOGE(format, ...)  __android_log_print(ANDROID_LOG_ERROR, MY_TAG, format, ##__VA_ARGS__)
+        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:275:18: warning: assigning to 'int8_t *' (aka 'signed char *') from 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    dst          = frame->data    [0];
+                 ^ ~~~~~~~~~~~~~~~~~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:278:29: warning: passing 'int8_t *' (aka 'signed char *') to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        sub2video_copy_rect(dst, dst_linesize, frame->width, frame->height, sub->rects[i]);
+                            ^~~
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:200:42: note: passing argument to parameter 'dst' here
+static void sub2video_copy_rect(uint8_t *dst, int dst_linesize, int w, int h,
+                                         ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:1845:35: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        avio_write(progress_avio, buf_script.str,
+                                  ^~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avio.h:480:54: note: passing argument to parameter 'buf' here
+void avio_write(AVIOContext *s, const unsigned char *buf, int size);
+                                                     ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:2091:5: warning: 'av_copy_packet_side_data' is deprecated [-Wdeprecated-declarations]
+    av_copy_packet_side_data(&opkt, pkt);
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavcodec/avcodec.h:4462:1: note: 'av_copy_packet_side_data' has been explicitly marked deprecated here
+attribute_deprecated
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:2154:13: warning: 5 enumeration values not handled in switch: 'AVMEDIA_TYPE_UNKNOWN', 'AVMEDIA_TYPE_DATA', 'AVMEDIA_TYPE_SUBTITLE'... [-Wswitch]
+    switch (ifilter->ist->st->codecpar->codec_type) {
+            ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:2728:17: warning: 5 enumeration values not handled in switch: 'AVMEDIA_TYPE_UNKNOWN', 'AVMEDIA_TYPE_DATA', 'AVMEDIA_TYPE_SUBTITLE'... [-Wswitch]
+        switch (ist->dec_ctx->codec_type) {
+                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3150:13: warning: 5 enumeration values not handled in switch: 'AVMEDIA_TYPE_UNKNOWN', 'AVMEDIA_TYPE_DATA', 'AVMEDIA_TYPE_SUBTITLE'... [-Wswitch]
+    switch (par_dst->codec_type) {
+            ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3217:20: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        av_strlcpy(encoder_string, LIBAVCODEC_IDENT " ", encoder_string_len);
+                   ^~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/avstring.h:100:25: note: passing argument to parameter 'dst' here
+size_t av_strlcpy(char *dst, const char *src, size_t size);
+                        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3219:20: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        av_strlcpy(encoder_string, "Lavc ", encoder_string_len);
+                   ^~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/avstring.h:100:25: note: passing argument to parameter 'dst' here
+size_t av_strlcpy(char *dst, const char *src, size_t size);
+                        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3220:16: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    av_strlcat(encoder_string, ost->enc->name, encoder_string_len);
+               ^~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/avstring.h:118:25: note: passing argument to parameter 'dst' here
+size_t av_strlcat(char *dst, const char *src, size_t size);
+                        ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3221:49: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    av_dict_set(&ost->st->metadata, "encoder",  encoder_string,
+                                                ^~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/dict.h:130:65: note: passing argument to parameter 'value' here
+int av_dict_set(AVDictionary **pm, const char *key, const char *value, int flags);
+                                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3562:15: warning: 'avcodec_copy_context' is deprecated [-Wdeprecated-declarations]
+        ret = avcodec_copy_context(ost->st->codec, ost->enc_ctx);
+              ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavcodec/avcodec.h:4234:1: note: 'avcodec_copy_context' has been explicitly marked deprecated here
+attribute_deprecated
+^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3562:45: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+        ret = avcodec_copy_context(ost->st->codec, ost->enc_ctx);
+                                            ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3596:45: warning: passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'int32_t *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                    av_display_rotation_set((uint32_t *)dst, 0);
+                                            ^~~~~~~~~~~~~~~
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/display.h:98:38: note: passing argument to parameter 'matrix' here
+void av_display_rotation_set(int32_t matrix[9], double angle);
+                                     ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3608:18: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+        ost->st->codec->codec= ost->enc_ctx->codec;
+                 ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:3991:43: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+            debug = input_streams[0]->st->codec->debug<<1;
+                                          ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+D:/AndroidStudioProjects/lovewmfan/EpMedia/joevideolib/src/main/jni/ffmpeg.c:4014:35: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+            input_streams[i]->st->codec->debug = debug;
+                                  ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavformat/avformat.h:884:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+D:\AndroidStudioProjects\lovewmfan\FFMpegBuild\ffmpeg-4.2.4\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+19 warnings generated.
